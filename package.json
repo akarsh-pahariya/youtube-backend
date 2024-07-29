@@ -1,11 +1,15 @@
 {
-  "name": "youtube-backend-project",
-  "version": "1.0.0",
-  "description": "Youtube backend practice project using Javascript",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Akarsh Pahariya",
-  "license": "ISC"
+    "name": "youtube-backend-project",
+    "version": "1.0.0",
+    "description": "Youtube backend practice project using Javascript",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "author": "Akarsh Pahariya",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
 }
